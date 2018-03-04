@@ -1,0 +1,58 @@
+.wrapper {
+        grid-gap: 45px;
+        grid-template-columns: 100px 200px 300px;
+        background-color: rgba(0,0,0,.1);
+        color: #444;
+        justify-content: center;
+        top: 0;
+        display: flex;
+        padding: 20px;
+    }
+
+    .box {
+        background-color: #444;
+        color: #fff;
+        border-radius: 20px;
+        padding: 50px;
+        font-size: 150%;
+        
+
+    }
+    .hr {
+        display: block;
+        unicode-bidi: isolate;
+        -webkit-margin-before: 0.5em;
+        -webkit-margin-after: 0.5em;
+        -webkit-margin-start: auto;
+        -webkit-margin-end: auto;
+        overflow: hidden;
+        border-style: inset;
+        border-width: 1px;
+
+        }
+
+  .a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+      
+  }
+  .b {
+    grid-column: 2 / 3;
+    grid-row: 1/ 2;
+  }
+  .c {
+    grid-column: 3 / 4;
+    grid-row:1 / 2;
+  }
+  .d {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .e {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .f {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }

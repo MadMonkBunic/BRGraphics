@@ -1,0 +1,45 @@
+body {
+  background: white;
+  font-size: 20px;
+  margin: 50px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: red;
+}
+
+.container {
+    width: 800;
+    margin: 0 auto 0 auto;
+}
+
+.toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    bottom: 0;
+    background: #D5BA83;
+    padding-top: 30px;
+    padding-right: 10px;
+    
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 30%;
+    padding: 40px;
+}
+
+#home {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+}

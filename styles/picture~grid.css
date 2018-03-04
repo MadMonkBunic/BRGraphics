@@ -1,0 +1,79 @@
+@use postcss-cssnext;
+
+/* helpers/align.css */
+
+.align {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* helpers/grid.css */
+
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 3000px;
+  width: 90%;
+}
+
+/* layout/base.css */
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 10vmin;
+  padding-top: 10vmin;
+}
+
+/* modules/figure.css */
+
+figure {
+  margin: 0;
+}
+
+/* modules/image.css */
+
+img {
+  position: relative;
+    float: left;
+  
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* vendor/masonry.css */
+
+:root {
+  --masonryGutter: 3%;
+}
+
+.masonry {
+  margin: calc(var(--masonryGutter) * -1);
+}
+
+.masonry__item {
+  margin: calc(var(--masonryGutter) / 2);
+  width: calc(90% / 2 - var(--masonryGutter));
+}
+
+@media (min-width: 30em) {
+
+  .masonry__item {
+    width: calc(90% / 3 - var(--masonryGutter));
+  }
+
+}
+
+@media (min-width: 48em) {
+
+  .masonry__item {
+    width: calc(100% / 4 - var(--masonryGutter));
+  }
+
+}

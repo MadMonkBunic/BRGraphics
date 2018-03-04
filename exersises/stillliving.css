@@ -1,0 +1,173 @@
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 856px;
+	margin: 100px auto;
+	background: #635c5c;
+	position: relative;
+    z-index: -2;
+}
+
+.object {
+	position: absolute;
+}
+
+#surface {
+  background: #252525;
+  width: 26em;
+  height: 10em;
+  border-radius: 50%;
+  bottom: 22%;
+  left: 36%;
+	transform: skewX(20deg);
+}
+#head{
+     background: #AD7A1F;
+  width: 28em;
+  height: 30em;
+  border-radius: 50%;
+  bottom: -16%;
+  left: 33%;
+    z-index: -1;
+    
+}
+#eyer {
+    width: 6em;
+	height: 3em;
+	background-color: white;
+	border-radius: 50%;
+	bottom: 6%;
+	right: 23%;
+    
+}
+#pupilr{
+     width: 3em;
+	height: 2em;
+	background-color: black;
+	border-radius: 50%;
+	bottom: 33%;
+	right: 23%;
+    
+}#eyel {
+    width: 6em;
+	height: 3em;
+	background-color: white;
+	border-radius: 50%;
+	bottom: 6%;
+	right: 23%;
+    
+}
+#pupill{
+     width: 3em;
+	height: 2em;
+	background-color: black;
+	border-radius: 50%;
+	bottom: 33%;
+	right: 23%;
+    
+}
+
+#clementine {
+	width: 4em;
+	height: 3em;
+	background: #ff7700;
+	border-radius: 50%;
+	bottom: 33%;
+	right: 23%;
+}
+
+#light {
+	width: 8em;
+	height: 6em;
+	bottom: 31%;
+  right: 45%;
+}
+
+#light #bulb {
+	background: #e9edb4;
+	width: 100%;
+	height: 92%;
+  border-radius: 44%;
+	box-shadow: 0 0 8px #e9edb4;
+  -webkit-animation: pulse 5s linear 1s infinite;
+}
+
+#light #stand {
+	background: gray;
+	width: 40%;
+	height: 8%;
+	margin-left: 30%;
+}
+
+@-webkit-keyframes pulse {
+  0% { box-shadow:0 0 8px #e9edb4; }
+  50% { box-shadow:0 0 75px #e9edb4; }
+  100% { box-shadow:0 0 8px #e9edb4; }
+}
+
+#vase {
+	width: 12em;
+	height: 10em;
+	/* border: 1px solid yellow; */
+	bottom: 37%;
+	left: 52%;
+}
+
+#vase #top {
+	border-bottom: 4.25em solid #d2d2d2;
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  height: 0;
+  width: 6em;
+}
+
+#vase #middle {
+	width: 12em;
+	height: 1.5em;
+	background: #bdbdbd;
+}
+
+#vase #bottom {
+	border-top: 4.25em solid #ababab;
+	border-left: 3em solid transparent;
+	border-right: 3em solid transparent;
+	height: 0;
+	width: 6em;
+}
+
+.flower {
+	height: 12em;
+  width: 3em;
+  /* border: 1px solid yellow; */
+  bottom: 47%;
+  left: 58%;
+  transform: rotate(-35deg);
+}
+
+.flower.two {
+	transform: rotate(-70deg);
+}
+
+.flower.two .petal {
+	border-bottom: 3em solid #b32a09;
+}
+
+.flower.three {
+	transform: rotate(-50deg);
+}
+
+.flower .petal {
+	width: 0;
+	height: 0;
+	border-bottom: 3em solid #8a0654;
+	border-right: 4em solid transparent;
+}
+
+.flower .stem {
+	background: #1a611a;
+	height: 6em;
+	width: 0.5em;
+}

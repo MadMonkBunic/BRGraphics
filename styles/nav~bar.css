@@ -1,0 +1,146 @@
+.support-menu * {margin: 0;padding: 0;outline: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+div.support-menu {
+    position: fixed;
+    top: 0;
+    left: 5%;
+    right: 74%;
+    bottom: 0;
+}
+nav{
+    background-color: rgb(255,255,255) ;
+    
+      background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-left: 20px;
+    background-attachment: fixed;
+     background-size: 30% 300px ;
+      padding:30px;
+      color: black;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      text-align: center;
+      text-decoration: none;
+      font-size: 20px;
+    }
+.support-menu nav.vertical {border-radius: 4px;box-shadow: 0 0 10px rgba(0,0,0,.15);overflow: hidden;text-align: center;height: 100vh;}
+.support-menu nav.vertical > ul {list-style-type: none;}
+.support-menu nav.vertical > ul > li {display: block;}
+.support-menu nav.vertical > ul > li > a {background-color: rgb(157, 34, 60);background-image: -webkit-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));background-image: -moz-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));background-image: -o-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));background-image: linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));border-bottom: 1px solid rgba(255,255,255,.1);box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);color: rgb(255,255,255);display: block;font-size: .85rem;font-weight: 500;height: 50px;letter-spacing: .5rem;line-height: 50px;text-shadow: 0 1px 1px rgba(0,0,0,.1);text-transform: uppercase;transition: all .1s ease;text-decoration: none;}
+.support-menu nav.vertical > ul > li > a:hover {background-color: rgb(114, 51, 98);background-image: -webkit-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));background-image: -moz-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));background-image: -o-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));background-image: linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98)); cursor: pointer;}
+
+/*subbar
+*/
+
+.support-menu nav.vertical > ul > li > div {background-color: rgb(255,255,255);}
+.support-menu nav.vertical > ul > li > div > ul {list-style-type: none;}
+.support-menu nav.vertical > ul > li > div > ul > li > a {background-color: rgb(255,255,255);border-bottom: 1px solid rgba(0,0,0,.05);color: #333331;display: block;font-size: 1.1rem;padding: 10px 0;text-decoration: none;transition: all 0.15s linear;}
+.support-menu nav.vertical > ul > li > div > ul > li:hover > a {background-color: lightcoral;color: rgb(255,255,255);padding: 10px 0 10px 50px;}
+
+
+body
+{   margin:5px; display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+.right-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 70%;
+}
+
+.grid-item {
+	
+    float: left;
+    
+    list-style: none;
+	margin: 30px auto;
+	padding: 20px;
+    display: block;
+    }
+
+.grid-item li {
+	display: block;
+	float: left;
+	padding: 7px;
+	width: 30%;
+	opacity: 0;
+}
+
+
+.grid-item li a,
+.grid-item li img {
+	outline: none;
+	border: none;
+	display: block;
+    padding: 7px
+	max-width: 350px;
+}
+
+/* BACK TO TOP */
+
+.bottom {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom a {
+    
+    width: 50px;
+    height: 50px;
+    
+    display: inline-block;
+    
+    }
+.botom img:hover{ opacity: o.3;
+    filter: alpha(opacity=30);
+    
+}
+.bottom a:active {
+    border-radius: 0;
+    
+}
+
+/* GENERAL */
+
+.general-wrapper {
+    padding: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.general-wrapper h3 {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 0;
+    margin-bottom: 1em;
+}
+.general-wrapper h4 {
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.general-wrapper img {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.resume-content {
+    font-family: "Gill Sans", sans-serif;
+    color:#979696;
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    margin: 0;
+    margin-bottom: 1em;
+}
+.resume-content li{
+    font-size: 16px;
+    list-style:square;
+}
