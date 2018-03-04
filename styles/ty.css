@@ -1,10 +1,11 @@
 .support-menu * {margin: 0;padding: 0;outline: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 div.support-menu {
     position: fixed;
-    top: 0;
+    margin-left: 2.5vw;
+    /* top: 0;
     left: 5%;
     right: 74%;
-    bottom: 0;
+    bottom: 0; */
 }
 nav{
     background-color: rgb(255,255,255) ;
@@ -105,20 +106,40 @@ body {
 
 .horizontal-scroll-wrapper{
 /*  position:absolute;*/
-  display:block;
+  /* display:block;
   top:0;
   left:100px;
   height: 900px;
-  width:500px;
+  width:100vw;
   max-height:900px;
   margin:0;
-  background-color:whitesmoke;
-  overflow-y:auto;
+  background-color:whitesmoke; */
+  overflow-x:scroll;
+  overflow-y:hidden;
+  white-space: nowrap;
+  height: 900px;
+  width: 100%;
+  /* overflow-y:auto;
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-100px);
-  transform-origin:right top;
+  transform-origin:right top; */
 }
 .horizontal-scroll-wrapper > div{
+
+  background-color: red;
+  display: inline-block;
+  height: 900px;
+
+ }
+ .horizontal-scroll-wrapper > div > img{
+
+  /* background-color: red;
+  display: inline-block; */
+  height: 900px;
+
+ }
+
+/* .horizontal-scroll-wrapper > div{
   display:block;
   padding:5px;
   background:#cab;
@@ -148,5 +169,10 @@ body {
   background:#cab;
   transform:rotate(90deg) translateY(80px);
   transform-origin: right top;
-}
+} */
 
+.start {
+
+  margin-left: 25vw;
+
+}
